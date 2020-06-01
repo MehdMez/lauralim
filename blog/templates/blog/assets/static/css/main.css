@@ -1,0 +1,75 @@
+@font-face {
+    font-family: titleFont;
+    src: local('Playlist Script'),
+         url('../fonts/PlaylistScript.otf') format("opentype");
+  }
+
+@font-face {
+  font-family: subtitleFont;
+  src: local('Aileron-Thin'),
+       url('../fonts/Aileron-Thin.otf') format("opentype");
+}
+
+body, html {
+    min-height: 100%;
+  }
+
+#navbarTitle, #recettes {
+    color : #737373;
+    font-family: titleFont;
+}
+
+
+#navbarDropdownMenuLink {
+    font-family: subtitleFont;
+    color : #737373;
+}
+
+.banner {
+    margin-top: 2em;
+    background-image: url(../img/frontbanner.png);
+    background-attachment: fixed;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:100%;
+    min-width: 300px;
+    height: 800px;
+}
+
+.title {
+    margin-top: 2rem;
+    font-family: titleFont;
+    color : #737373;
+}
+
+.subtitle {
+    font-family: subtitleFont;
+    color : #737373;
+}
+
+.footer {
+    margin-top: 1rem;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+}
+
+.category_img {
+    height: 200px;
+    width: 200px;
+}
+
+#contactsDiv {
+ border: solid;
+ border-color: #3a444e;
+ padding: 0.5rem;
+ padding-left: 1rem;
+ padding-right: 1rem;
+ font-family: subtitleFont;
+ color: #3a444e;
+}
+
+#contacts {
+    font-family: subtitleFont;
+    color: #3a444e; 
+}
